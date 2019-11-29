@@ -1,0 +1,47 @@
+[‎29/‎11/‎2019 11:46] Gilberto Olimpio dos Santos: 
+Bom dia Vini!
+me tira uma dúvida?
+vou escrever aqui vc responde qndo puder, ok?
+sem pressa
+[‎29/‎11/‎2019 11:49] Gilberto Olimpio dos Santos: 
+1 – Na abertura de conta em lote, o representante da empresa contratante envia a planilha por email para a agencia, esse cara precisa comparecer na agencia em algum momento? 
+2 – O empregado deve comparecer à agência para validar a conta aberta? 
+[‎29/‎11/‎2019 11:51] Gilberto Olimpio dos Santos: 
+3 – Caso haja alguma informação incorreta na planilha o empregado caixa devolve a planilha com erro e o representante da empresa corrige o erro e devolve novamente, tudo por e-mail?
+4 - Tem alguma forma de acompanhar o processo de abertura? ou é tudo por email?
+Salvamos esta conversa. Você poderá visualizá-la em breve na guia Conversas no Skype for Business e na pasta Histórico da Conversa no Outlook.
+[‎29/‎11/‎2019 12:20] Vinicius de Castro Luz: 
+Fala Giba!
+1 - por email geralemnte, ele tem que assinar o contrato né, de convenio com a caixa, então ele vai na agencia sim
+[‎29/‎11/‎2019 12:22] Vinicius de Castro Luz: 
+2 - a 3700 ou a 001?. a 3700 não tem conformidade, a empresa que solicita a abertura  para o empregado pelo que eu saiba. a 001 o cliente tem que estar presencialmente na agencia, isso esta no normativo
+3 - ou isso ou o próprio empregado corrige na grade do SIGAT antes da abertura da conta
+[‎29/‎11/‎2019 12:25] Vinicius de Castro Luz: 
+4- na visão cliente o acompanhamento é com o gerente , o que a empresa recebe após a abertura da conta é o arquivo retorno, com a relação das contas abertas, informações das contas e contas rejeitadas. mas entre a "rntrega" do arquivo e a geração desse relatório, que eu saiba o acompanhamento é direto entre o gerente e o empregador
+5 - qual que é a idéia? kkkk
+[‎29/‎11/‎2019 12:30] Gilberto Olimpio dos Santos: 
+acabando o dossiê digital a Claudia vaI querer me mandar para a Paulista certeza, e tá rolando um PSI de sr, minha proposta e criar uma API oriunda do SIPNC que permita ser consumida por qualquer Canal, que gere a pré abertura da conta na base oracle do SIPNC, e a partir disso o empregado caixa importa isso no formato json e abre as contas em lote
+a maior dificuldade é a com a GEARQ ou SUART
+mas a ideia é usar o conceito de micro serviços que não foi usado no SIPNC
+[‎29/‎11/‎2019 12:31] Gilberto Olimpio dos Santos: 
+pq esse serviço apenas precisaria de acesso para gravar na base do SIPNC
+pode ser desenvolvido totalmente apartado e postado no API manager 
+vamos ver se cola né?
+a ideia é boa
+[‎29/‎11/‎2019 12:32] Gilberto Olimpio dos Santos: 
+acaba com a planilha
+acaba com o SIGAT
+kkkkkkkkkkkkkk
+valeu Vini
+
+[‎29/‎11/‎2019 12:58] Vinicius de Castro Luz: 
+a maior dificuldade é a com a GEARQ ou SUART  - isso mesmo kkkk
+idéia  é boa, uma vez o ludovico disse tambe´m que achava que o processo do lote deveria come car pelo IBC, o proprio empregador acessava e colocaria os dados dos emprgados lá
+[‎29/‎11/‎2019 12:59] Vinicius de Castro Luz: 
+e lá teria uma "linha do tempo" em que ele acompanharia em que fase tá
+quando abrisse a conta na agencia, o retorno voltaria para ele via IBC
+e teria essa integração IBC - SIPNC
+[‎29/‎11/‎2019 13:00] Gilberto Olimpio dos Santos: 
+a minha ideia é bem essa tbm
+sem usar nada de email
+
